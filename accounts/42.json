@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "focal-welder-324504",
+  "private_key_id": "7fdbff7a65aa6f0a6d5031f0cda575764f5e7006",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCWT42U6mmAsuxE\nmK47D9NaYNJzZLtWOBYs9WdDfUy7w798q4xdITTxJ27pGC4/6Ny+CHDRzDi21GQg\njZOhigBCtPdVo1m/vJKl0UbVOp1hAFN9K6Q28EdE6I1A8P9aam4zMJLuXBIGxOw8\nG+FCV64FY1XRNV+6eYxvs3TrnW7r5EhNg1tCivU8EFVuI+n9UzUMigZqRoBEQaZO\nYM7pHMumtBXEhh8bDvpgK26o7+01YPdtlC4jdiaRoujviSStVHzNpj3qyZbqtm/a\nBzz25LUT6PErn0cOk4elqwMwRDI0ew9awR5ondYPD+ffEdAPbwUUAKkgDJf38o1V\nmOYl4AXfAgMBAAECggEAEK7fvgmOkDRLuQlhPTjycnOQqDIkANvUykSqo3kCzUxa\nspGv0J5g6+s+iiye5YUJCyaQrxiFqvVD78EHA8T3ZnADi8PHsFpTxIfH3t7UnPGW\nUqxHW7mrj2BoXS7iiLyLYq8ff8lETvAIcFt/0wc8T2jJG6Fa8K2RAszeS1B8AT53\nl4mSC2CuASlR9Vg2EwZ6YftjUSJJLo3hUwtkEOAF0aAvg/k7WoSY06kAM6OPPt/A\nqBpar2qK0GvHVuTu9NEsgbsWWsvjzhAjDP7yRC5hEguXn2YIAY3UTXFZcEmJwDQd\n8xswjLGWoVFp/BdUXO8R08jd2zaO9iXX3CVDc5smoQKBgQDN0yKINNPIoRaYp47f\nAdBA9wKyaSxzDmAGMi7pgZhFXzSw+egQGSR9IP2t7DKU3cCUrxSLFwVcSfnpC1qj\n2+yh4C5hESHJvJWuq2B+mgDHlpUeI9CNAmXD6x6QSCAbVgd4Wrmg5E3SWP/2AW/B\nVR64GGwB10v/APZmYCDpAztUmQKBgQC68/ecDCQ5/BBc4mEeA5Ywq/SGLB9j1AFN\n3WJIpEJV73FGqPIgDNPq+N4UMc2AzMlwMXn6aGTi87y3cFBda/jyr9Ko6H+oypoQ\nVBkCP04HPIwla2sUKI0BD97phdhr1gJ4sLuN2dQn7c7KU0Zlk7DYiAzRX4sYw5La\nGI14opZBNwKBgAylq5qI/HZ4h4XrzdigKObFBtJlqgiL2pSm4sEQaIXiur8hLARJ\nNzfFHjFgsR76nUnFlFKToI2yMfwC6Zfl/J1ZxB/MyLG3t87a0vwUhHW/J/yJINh5\nTD2EpgUhmW90ktLvaDadsLZ7J4c7QV202EVhosleLFpH+dwCjiMjQrMJAoGAeO6B\neA6ejGeRyhOh0MFvMLK6rOPztiaYZV7USbr/Mgl+E8ALR1Ik7vTm6tdAYJWXpBxN\nE/7da7VQmLRtN9E1Kv8y3JHwqiXMPM25k6uRdLrkyPvQOyzz8QDsJ9Ctqyu3U4y2\n9c43H1EEF/qAKgq8NYTkDbepCW7RGoURVjyNx0cCgYA+38m9zIUdxryP1V7hGTMf\n76YYFmZ9q1gNDtXzGjDxoyyn9+kGkBQ4DYyi0wZ9IpyRu4c8FYJnre3LGOPBRY0E\nMA5qjWjeN/L7o4G+aJqUW+KJNg9xkreBhhRrbWxk+qLQy2a3OBFRTltJEseTzg5l\n8vOQ4N0E0HR8kgr5oRvK3w==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mfc--nakubi4-q5j2mullwihgsd-xe@focal-welder-324504.iam.gserviceaccount.com",
+  "client_id": "116443656930352597422",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mfc--nakubi4-q5j2mullwihgsd-xe%40focal-welder-324504.iam.gserviceaccount.com"
+}
