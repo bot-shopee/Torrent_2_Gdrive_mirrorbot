@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# (c) YashDK [yash-dk@github]
+# (c) YashDK [yash-dk@]
 
 import os
 import time
@@ -200,20 +200,20 @@ input[type="submit"]:hover, input[type="submit"]:focus{
           src="https://telegra.ph/file/4defcc13ea6cf6e69a202.jpg"
           alt="logo"
         />
-        <a href="https://t.me/budy_RangerDark"> 
-          <h2 class="name">budy_RangerDark</h2>
+        <a href="https://t.me/budy_Rangerdark"> 
+          <h2 class="name">budy_Rangerdark mirror</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/budy_RangerDark"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/kangupdate2/kangupdate2"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/budy_Rangerdark"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
       <h2 class="intro">Pilih file yang ingin Anda unduh</h2>
       <form action="{form_url}" method="POST">
        {My_content}
-       <input type="Sudah" name="Pilih File ;)">
+       <input type="submit" name="Pilih file-file ini ;)">
       </form>
     </section>
 
@@ -525,13 +525,13 @@ section span{
           src="https://telegra.ph/file/4defcc13ea6cf6e69a202.jpg"
           alt="logo"
         />
-        <a href="https://t.me/budy_RangerDark">
-          <h2 class="name">budy_RangerDark</h2>
+        <a href="https://t.me/budy_Rangerdark">
+          <h2 class="name">budy_Rangerdark mirror</h2>
         </a>
       </div>
       <div class="social">
-        <a href="https://github.com"><i class="fab fa-github"></i></a>
-        <a href="https://t.me/budy_RangerDark"><i class="fab fa-telegram"></i></a>
+        <a href="https://github.com/kangupdate2/kangupdate2"><i class="fab fa-github"></i></a>
+        <a href="https://t.me/budy_Rangerdark"><i class="fab fa-telegram"></i></a>
       </div>
     </header>
     <section>
@@ -544,7 +544,7 @@ section span{
             placeholder="Masukkan kode yang Anda dapatkan dari telegram untuk mengakses torrent"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Sudah</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
           <span
             >* Jangan main-main. Unduhan Anda akan kacau.</
@@ -629,7 +629,7 @@ async def re_verfiy(paused, resumed, client, torr):
                     break
 
         if not verify:
-            LOGGER.error("Verifikasi Ulang Gagal, mengoreksi hal-hal...")
+            LOGGER.error("Reverification Failed, correcting stuff...")
             client.auth_log_out()
             client = qba.Client(host="localhost", port="8090",
                                username="admin", password="adminadmin")
@@ -643,7 +643,7 @@ async def re_verfiy(paused, resumed, client, torr):
                 client.torrents_file_priority(
                     torrent_hash=torr, file_ids=resumed, priority=1)
             except:
-                LOGGER.error("Terjadi kesalahan saat verifikasi ulang dilanjutkan")
+                LOGGER.error("Errored in reverification resumed")
             client.auth_log_out()
         else:
             break
@@ -704,7 +704,7 @@ async def set_priority(request):
 @routes.get('/')
 async def homepage(request):
 
-    return web.Response(text="<h1>See mirror <a href='https://github.com'>@GitHub</a> By <a href='https://github.com'></a></h1>", content_type="text/html")
+    return web.Response(text="<h1>budy_Rangerdark mirror <a href='https://github.com/kangupdate2/kangupdate2'>@GitHub</a> By <a href='https://github.com/kangupdate2/kangupdate2'></a></h1>", content_type="text/html")
 
 
 async def e404_middleware(app, handler):
@@ -714,11 +714,11 @@ async def e404_middleware(app, handler):
         try:
             response = await handler(request)
             if response.status == 404:
-                return web.Response(text="<h1>404: Page not found</h2><br><h3>budy_RangerDark mirror</h3>", content_type="text/html")
+                return web.Response(text="<h1>404: Page not found</h2><br><h3budy_Rangerdark mirrorbot</h3>", content_type="text/html")
             return response
         except web.HTTPException as ex:
             if ex.status == 404:
-                return web.Response(text="<h1>404: Page not found</h2><br><h3>budy_RangerDark mirror</h3>", content_type="text/html")
+                return web.Response(text="<h1>404: Page not found</h2><br><h3>budy_Rangerdark mirrorbot</h3>", content_type="text/html")
             raise
     return middleware_handler
 
